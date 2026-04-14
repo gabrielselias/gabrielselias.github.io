@@ -40,6 +40,12 @@ export default function ContatoPage() {
               <a href={personal.links.linkedin} target="_blank" rel="noopener noreferrer" className="text-sm text-stone-600 dark:text-stone-400 hover:text-[var(--accent)] transition-colors">
                 LinkedIn &rarr;
               </a>
+              <a href={personal.links.instagram} target="_blank" rel="noopener noreferrer" className="text-sm text-stone-600 dark:text-stone-400 hover:text-[var(--accent)] transition-colors">
+                Instagram (@gabrieleliasdf) &rarr;
+              </a>
+              <a href={personal.links.twitter} target="_blank" rel="noopener noreferrer" className="text-sm text-stone-600 dark:text-stone-400 hover:text-[var(--accent)] transition-colors">
+                Twitter / X (@gabrieleliasdf) &rarr;
+              </a>
               <a href={personal.links.lattes} target="_blank" rel="noopener noreferrer" className="text-sm text-stone-600 dark:text-stone-400 hover:text-[var(--accent)] transition-colors">
                 Lattes &rarr;
               </a>

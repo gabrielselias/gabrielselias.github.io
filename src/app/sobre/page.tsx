@@ -26,7 +26,18 @@ export default function SobrePage() {
                   {edu.institution}, {edu.year}
                 </p>
                 <p className="text-sm text-stone-600 dark:text-stone-400 italic">
-                  &ldquo;{edu.thesis.pt}&rdquo;
+                  {"url" in edu && edu.url ? (
+                    <a
+                      href={edu.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[var(--accent)] hover:underline"
+                    >
+                      &ldquo;{edu.thesis.pt}&rdquo;
+                    </a>
+                  ) : (
+                    <>&ldquo;{edu.thesis.pt}&rdquo;</>
+                  )}
                 </p>
                 <p className="text-xs text-stone-400 dark:text-stone-500">
                   Orientadora: {edu.advisor}

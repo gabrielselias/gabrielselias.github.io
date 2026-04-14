@@ -241,16 +241,207 @@ export const nexoArticles: WritingPiece[] = [
 ];
 
 // ── Forthcoming ──
-export const forthcoming: WritingPiece[] = [
+export const forthcoming: WritingPiece[] = [];
+
+// ── Vero Notícias articles (DF politics / 2026 elections) ──
+export const veroArticles: WritingPiece[] = [
   {
-    id: "w-forthcoming-conversation",
-    type: "forthcoming",
+    id: "w-vero-2025-stf-bolsonaristas",
+    type: "op-ed",
     title: {
-      pt: "When Democracy Retreats, Civil Society Goes to Parliament: Lessons from Brazil",
-      en: "When Democracy Retreats, Civil Society Goes to Parliament: Lessons from Brazil",
+      pt: "Precisamos proteger o STF dos bolsonaristas e dos seus próprios Ministros",
+      en: "We Need to Protect the Supreme Court from Bolsonaristas and from Its Own Justices",
     },
-    outlet: "The Conversation",
-    date: "", // TODO: Add date when published
+    outlet: "Vero Notícias",
+    date: "19 dez. 2025",
+    url: "https://veronoticias.com/politica/precisamos-proteger-o-stf-dos-bolsonaristas-e-dos-seus-proprios-ministros/",
+  },
+  {
+    id: "w-vero-2025-celina",
+    type: "op-ed",
+    title: {
+      pt: "A história de Celina Leão: forte nos bastidores, fraca nas urnas",
+      en: "The Story of Celina Leão: Strong Behind the Scenes, Weak at the Ballot Box",
+    },
+    outlet: "Vero Notícias",
+    date: "5 dez. 2025",
+    url: "https://veronoticias.com/politica/a-historia-de-celina-leao-forte-nos-bastidores-fraca-nas-urnas/",
+  },
+  {
+    id: "w-vero-2025-pandora",
+    type: "op-ed",
+    title: {
+      pt: "O espectro da Caixa de Pandora ronda a política de Brasília",
+      en: "The Specter of Pandora's Box Haunts Brasília's Politics",
+    },
+    outlet: "Vero Notícias",
+    date: "25 nov. 2025",
+    url: "https://veronoticias.com/politica/o-espectro-da-caixa-de-pandora-ronda-a-politica-de-brasilia/",
+  },
+  {
+    id: "w-vero-2025-obras-atrasadas",
+    type: "op-ed",
+    title: {
+      pt: "Governo Ibaneis desperdiça R$ 304 milhões com obras atrasadas",
+      en: "Ibaneis Government Wastes R$ 304 Million on Delayed Public Works",
+    },
+    outlet: "Vero Notícias",
+    date: "12 nov. 2025",
+    url: "https://veronoticias.com/politica/governo-ibaneis-desperdica-r-304-milhoes-com-obras-atrasadas/",
+  },
+  {
+    id: "w-vero-2025-julga-golpismo",
+    type: "op-ed",
+    title: {
+      pt: "O Brasil julga o golpismo: um acerto de contas histórico",
+      en: "Brazil Puts Coup-Plotting on Trial: A Historic Reckoning",
+    },
+    outlet: "Vero Notícias",
+    date: "3 set. 2025",
+    url: "https://veronoticias.com/politica/o-brasil-julga-o-golpismo-um-acerto-de-contas-historico/",
+  },
+  {
+    id: "w-vero-2025-esquerda-df",
+    type: "op-ed",
+    title: {
+      pt: "Para a esquerda do DF, vencer não basta: é preciso governar bem",
+      en: "For the Federal District's Left, Winning Is Not Enough: Governing Well Is Essential",
+    },
+    outlet: "Vero Notícias",
+    date: "22 ago. 2025",
+    url: "https://veronoticias.com/politica/para-a-esquerda-do-df-vencer-nao-basta-e-preciso-governar-bem/",
+  },
+  {
+    id: "w-vero-2025-america-latina",
+    type: "op-ed",
+    title: {
+      pt: "A América Latina tem direito ao seu próprio destino?",
+      en: "Does Latin America Have the Right to Its Own Destiny?",
+    },
+    outlet: "Vero Notícias",
+    date: "30 jul. 2025",
+    url: "https://veronoticias.com/mundo/a-america-latina-tem-direito-ao-seu-proprio-destino/",
+  },
+  {
+    id: "w-vero-2025-eua-trump",
+    type: "op-ed",
+    title: {
+      pt: "EUA acima de tudo, Trump acima de todos",
+      en: "USA Above All, Trump Above Everyone",
+    },
+    outlet: "Vero Notícias",
+    date: "11 jul. 2025",
+    url: "https://veronoticias.com/politica/eua-acima-de-tudo-trump-acima-de-todos/",
+  },
+  {
+    id: "w-vero-2025-armadilha",
+    type: "op-ed",
+    title: {
+      pt: "Armadilha: o dilema bolsonarista da direita brasileira",
+      en: "Trap: The Bolsonarist Dilemma of the Brazilian Right",
+    },
+    outlet: "Vero Notícias",
+    date: "4 jul. 2025",
+    url: "https://veronoticias.com/politica/armadilha-o-dilema-bolsonarista-da-direita-brasileira/",
+  },
+  {
+    id: "w-vero-2025-brasilia-escuras",
+    type: "op-ed",
+    title: {
+      pt: "Brasília às escuras: um problema de segurança, desigualdade e cidadania",
+      en: "Brasília in the Dark: A Problem of Security, Inequality and Citizenship",
+    },
+    outlet: "Vero Notícias",
+    date: "6 jun. 2025",
+    url: "https://veronoticias.com/politica/brasilia-as-escuras-um-problema-de-seguranca-desigualdade-e-cidadania/",
+  },
+  {
+    id: "w-vero-2025-capital-desigualdade",
+    type: "op-ed",
+    title: {
+      pt: "Governo Ibaneis transformou Brasília na Capital da Desigualdade",
+      en: "Ibaneis Government Turned Brasília into the Capital of Inequality",
+    },
+    outlet: "Vero Notícias",
+    date: "13 maio 2025",
+    url: "https://veronoticias.com/politica/governo-ibaneis-transformou-brasilia-na-capital-da-desigualdade/",
+  },
+  {
+    id: "w-vero-2025-glauber-braga",
+    type: "op-ed",
+    title: {
+      pt: "Caso Glauber Braga: Degradação política e falência do decoro",
+      en: "The Glauber Braga Case: Political Degradation and the Collapse of Decorum",
+    },
+    outlet: "Vero Notícias",
+    date: "11 abr. 2025",
+    url: "https://veronoticias.com/politica/caso-glauber-braga-degradacao-politica-e-falencia-do-decoro/",
+  },
+  {
+    id: "w-vero-2025-desigualdade-arborea",
+    type: "op-ed",
+    title: {
+      pt: "Desigualdade arbórea: A outra face da segregação urbana no DF",
+      en: "Tree Inequality: The Other Face of Urban Segregation in the Federal District",
+    },
+    outlet: "Vero Notícias",
+    date: "31 mar. 2025",
+    url: "https://veronoticias.com/politica/desigualdade-arborea-a-outra-face-da-segregacao-urbana-no-df/",
+  },
+  {
+    id: "w-vero-2025-tarifa-zero",
+    type: "op-ed",
+    title: {
+      pt: "A economia política da Tarifa Zero: Por que Ibaneis adotou a gratuidade no transporte?",
+      en: "The Political Economy of Fare-Free Transit: Why Did Ibaneis Adopt Free Public Transport?",
+    },
+    outlet: "Vero Notícias",
+    date: "18 mar. 2025",
+    url: "https://veronoticias.com/politica/a-economia-politica-da-tarifa-zero-por-que-ibaneis-adotou-a-gratuidade-no-transporte/",
+  },
+  {
+    id: "w-vero-2025-denuncia-bolsonaro",
+    type: "op-ed",
+    title: {
+      pt: "A denúncia contra Bolsonaro: Um marco histórico para a democracia brasileira",
+      en: "The Indictment of Bolsonaro: A Historic Milestone for Brazilian Democracy",
+    },
+    outlet: "Vero Notícias",
+    date: "21 fev. 2025",
+    url: "https://veronoticias.com/politica/a-denuncia-contra-bolsonaro-um-marco-historico-para-a-democracia-brasileira/",
+  },
+  {
+    id: "w-vero-2025-ia-df",
+    type: "op-ed",
+    title: {
+      pt: "Inteligência artificial: Como o DF pode aproveitar oportunidades e mitigar riscos",
+      en: "Artificial Intelligence: How the Federal District Can Seize Opportunities and Mitigate Risks",
+    },
+    outlet: "Vero Notícias",
+    date: "11 fev. 2025",
+    url: "https://veronoticias.com/politica/inteligencia-artificial-como-o-df-pode-aproveitar-oportunidades-e-mitigar-riscos/",
+  },
+  {
+    id: "w-vero-2025-8-janeiro",
+    type: "op-ed",
+    title: {
+      pt: "As perguntas que ainda precisam ser respondidas sobre o 8 de janeiro",
+      en: "The Questions That Still Need to Be Answered About January 8",
+    },
+    outlet: "Vero Notícias",
+    date: "9 jan. 2025",
+    url: "https://veronoticias.com/politica/as-perguntas-que-ainda-precisam-ser-respondidas-sobre-o-8-de-janeiro/",
+  },
+  {
+    id: "w-vero-2024-orcamento-gdf",
+    type: "op-ed",
+    title: {
+      pt: "O que o orçamento do GDF informa sobre suas prioridades políticas?",
+      en: "What the Federal District Government's Budget Reveals About Its Political Priorities",
+    },
+    outlet: "Vero Notícias",
+    date: "12 dez. 2024",
+    url: "https://veronoticias.com/politica/o-que-o-orcamento-do-gdf-informa-sobre-suas-prioridades-politicas/",
   },
 ];
 

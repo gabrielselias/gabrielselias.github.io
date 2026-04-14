@@ -5,6 +5,7 @@ import {
   recentOpeds,
   earlierOpeds,
   nexoArticles,
+  veroArticles,
   forthcoming,
   pressCitations,
   interviews,
@@ -32,18 +33,12 @@ export default function TextosPage() {
 
         <section>
           <SectionHeading as="h3">{t("section.veroNoticias", locale)}</SectionHeading>
-          <p className="text-sm text-stone-600 dark:text-stone-400">
-            Artigos sobre política do DF e eleições 2026.{" "}
-            <a
-              href="https://veronoticias.com/author/gabriel-elias/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[var(--accent)] hover:underline"
-            >
-              Ver todos os artigos &rarr;
-            </a>
+          <p className="text-sm text-stone-600 dark:text-stone-400 mb-4">
+            Artigos sobre política do DF e eleições 2026.
           </p>
-          {/* TODO: List individual Vero Notícias article titles and dates */}
+          {veroArticles.map((p) => (
+            <WritingEntry key={p.id} piece={p} locale={locale} />
+          ))}
         </section>
 
         <section>

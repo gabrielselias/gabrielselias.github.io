@@ -27,10 +27,6 @@ export const courses: Course[] = [
       pt: "Fundamentos teóricos da ação coletiva e dos repertórios de interação entre sociedade civil e Estado. Advocacy legislativo como estratégia de incidência política: conceitos, tipologias e dimensões práticas. Relações entre movimentos sociais, partidos políticos e poder legislativo. Contextos de retrocesso democrático e seus impactos sobre as estratégias de incidência. Recursos de advocacy: mobilização e pressão política, representatividade, evidências técnico-científicas e conexões institucionais. Monitoramento legislativo, gestão de coalizões e comunicação política.",
       en: "Theoretical foundations of collective action and state-society interaction repertoires. Legislative advocacy as a political influence strategy: concepts, typologies, and practical dimensions. Relations between social movements, political parties, and the legislature. Democratic backsliding and its impact on advocacy strategies. Advocacy resources: mobilization and political pressure, representativeness, scientific evidence and technical knowledge, and political connections and legislative monitoring.",
     },
-    format: {
-      pt: "40 horas · 4 módulos quinzenais (sexta 14h–17h40 — teórico; sábado 09h–12h40 — prático)",
-      en: "40 hours · 4 biweekly modules (Friday 2pm–5:40pm — theoretical; Saturday 9am–12:40pm — practical)",
-    },
   },
   {
     id: "course-fe-movimentos",

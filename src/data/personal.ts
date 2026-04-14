@@ -1,7 +1,6 @@
 export const personal = {
   name: "Gabriel Santos Elias",
-  // TODO: Replace with actual email
-  email: "gabriel@example.com",
+  email: "gabrielseliasdf@gmail.com",
   location: "Brasília, DF, Brazil",
   photo: "/profile.jpg",
   tagline: {
@@ -25,6 +24,7 @@ export const personal = {
         en: "Transforming Repertoires: Legislative Advocacy in the Context of Democratic Backsliding in Brazil",
       },
       advisor: "Rebecca Neaera Abers",
+      url: "https://repositorio.unb.br/handle/10482/17435",
     },
     {
       degree: {
@@ -39,6 +39,7 @@ export const personal = {
       },
       advisor: "Rebecca Neaera Abers",
       fellowship: "CNPq",
+      url: "https://repositorio.unb.br/handle/10482/54280",
     },
     {
       degree: {
@@ -53,6 +54,7 @@ export const personal = {
       },
       advisor: "Rebecca Neaera Abers",
       fellowship: "CAPES",
+      url: "https://www.academia.edu/36563763/Estrat%C3%A9gia_e_identidade_nos_Movimentos_Sociais_Urbanos_do_Distrito_Federal_Os_casos_do_Movimento_dos_Trabalhadores_Sem_Teto_e_do_Movimento_Passe_Livre",
     },
   ],
   researchInterests: {
@@ -110,6 +112,8 @@ export const personal = {
     // TODO: Replace with actual ORCID URL
     orcid: "https://orcid.org/0000-0000-0000-0000",
     linkedin: "https://www.linkedin.com/in/gabriel-santos-elias-7634a022",
+    instagram: "https://instagram.com/gabrieleliasdf",
+    twitter: "https://twitter.com/gabrieleliasdf",
   },
   authorPages: [
     { name: "JOTA", url: "https://www.jota.info/autor/gabriel-santos-elias" },

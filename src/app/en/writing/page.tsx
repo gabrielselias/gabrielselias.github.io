@@ -5,6 +5,7 @@ import {
   recentOpeds,
   earlierOpeds,
   nexoArticles,
+  veroArticles,
   forthcoming,
   pressCitations,
   interviews,
@@ -32,17 +33,12 @@ export default function WritingPage() {
 
         <section>
           <SectionHeading as="h3">{t("section.veroNoticias", locale)}</SectionHeading>
-          <p className="text-sm text-stone-600 dark:text-stone-400">
-            Articles on Federal District politics and 2026 elections.{" "}
-            <a
-              href="https://veronoticias.com/author/gabriel-elias/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[var(--accent)] hover:underline"
-            >
-              See all articles &rarr;
-            </a>
+          <p className="text-sm text-stone-600 dark:text-stone-400 mb-4">
+            Articles on Federal District politics and 2026 elections.
           </p>
+          {veroArticles.map((p) => (
+            <WritingEntry key={p.id} piece={p} locale={locale} />
+          ))}
         </section>
 
         <section>
