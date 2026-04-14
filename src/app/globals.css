@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #faf9f6;
+  --bg-secondary: #f3f1ec;
+  --text: #1a1a2e;
+  --text-secondary: #57534e;
+  --accent: #8b6914;
+  --border: #e7e5e4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1917;
+    --bg-secondary: #292524;
+    --text: #e7e5e4;
+    --text-secondary: #a8a29e;
+    --accent: #d4a843;
+    --border: #44403c;
+  }
+}
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--text);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.prose-body {
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+
+.prose-body p {
+  margin-bottom: 1rem;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: white;
+}
