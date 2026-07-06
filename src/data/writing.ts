@@ -500,3 +500,22 @@ export const interviews: WritingPiece[] = [
 ];
 
 // TODO: Add new writing pieces here as they are published
+
+// ── Relatórios (PDF) ──
+export const reports: WritingPiece[] = [
+  {
+        id: "w-2026-voto-bolsonarista-df",
+        type: "policy-brief",
+        title: {
+                pt: "O voto bolsonarista no DF e o desafio para a esquerda reconquistar maioria em 2026",
+                en: "The Bolsonarist Vote in the Federal District and the Left's Challenge to Win Back a Majority in 2026",
+        },
+        outlet: "Relatório (PDF)",
+        date: "jul. 2026",
+        url: "/relatorios/voto-bolsonarista-df-2026.pdf",
+        note: {
+                pt: "Análise por local de votação de cinco ciclos presidenciais no DF (2006–2022) e cenários para 2026.",
+                en: "Polling-place analysis of five presidential cycles in the Federal District (2006–2022) and scenarios for 2026.",
+        },
+  },
+  ];
