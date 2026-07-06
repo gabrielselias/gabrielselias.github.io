@@ -9,6 +9,7 @@ import {
   forthcoming,
   pressCitations,
   interviews,
+  reports,
 } from "@/data/writing";
 import { personal } from "@/data/personal";
 import { t } from "@/lib/i18n";
@@ -23,6 +24,13 @@ export default function WritingPage() {
     <PageWrapper locale={locale} currentPath="/en/writing">
       <div className="space-y-12">
         <SectionHeading as="h1">Writing</SectionHeading>
+
+<section>
+  <SectionHeading as="h2">{t("section.reports", locale)}</SectionHeading>
+  {reports.map((p) => (
+      <WritingEntry key={p.id} piece={p} locale={locale} />
+    ))}
+</section>
 
         <section>
           <SectionHeading as="h2">{t("section.recentOpeds", locale)}</SectionHeading>
